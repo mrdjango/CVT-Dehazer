@@ -26,7 +26,7 @@ The model architecture consists of a Convolutional Vision Transformer (CVT) whic
 - **Upsampling Layers** to reconstruct the dehazed image.
 
 ## Dataset Preparation
-
+Dataset: [RESIDE-6K](https://drive.google.com/file/d/1yaY_trqGn-SNoy7mrX040KUU7xhTPvas/view?usp=sharing)
 To train the dehazing model, you need a dataset containing pairs of hazy and clear images. The dataset should be organized in the following structure:
 ```
 data/
