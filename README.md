@@ -9,10 +9,7 @@ This project implements a Single Image Dehazing model using a Convolutional Visi
 - [Introduction](#introduction)
 - [Model Architecture](#model-architecture)
 - [Dataset Preparation](#dataset-preparation)
-- [Training the Model](#training-the-model)
-- [Evaluating the Model](#evaluating-the-model)
 - [Results](#results)
-- [Usage](#usage)
 - [Dependencies](#dependencies)
 - [License](#license)
 
@@ -57,8 +54,8 @@ The model's performance is evaluated using Peak Signal-to-Noise Ratio (PSNR) and
      <td>Dehazed Image (with 10 epoch)</td>
   </tr>
   <tr>
-    <td><img src="/hazy_image.jpg" width=270 height=480></td>
-    <td><img src="/dehazed_image.jpg" width=270 height=480></td>
+    <td><img src="/hazy_image.jpg" width=480 height=480></td>
+    <td><img src="/dehazed_image.jpg" width=480 height=480></td>
   </tr>
  </table>
 
@@ -69,7 +66,7 @@ The model's performance is evaluated using Peak Signal-to-Noise Ratio (PSNR) and
 |-------|-------|-------|-------|
 | 1     | 0.49  | 3.50  |0.0018 |
 | ...   | ...   | ...   | ...   |
-| 50    |0.0199 | 19.11 | 0.62  |
+| 10    |0.0199 | 19.11 | 0.62  |
 
 ## Dependencies
 
